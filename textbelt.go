@@ -29,7 +29,8 @@ type Client struct {
 	apiURL string
 }
 
-// New creates a new client that will use http://textbelt.com to send text messages in the USA.
+// New creates a new client that will use the USA version
+// of http://textbelt.com to send text messages.
 func New() *Client {
 	return NewClientFromURL(TextbeltAPIusa)
 }

@@ -9,6 +9,8 @@ This library sends text messages using http://textbelt.com
     $ go get github.com/dietsche/textbelt
 
 ### Example Code
+    package main
+    
     import (
         "github.com/dietsche/textbelt"
     )
@@ -17,6 +19,6 @@ This library sends text messages using http://textbelt.com
         texter := textbelt.New()
         phoneToText := "123-456-7890"
         if err := texter.Text(phoneToText, "txt msg from go!"); err != nil {
-            painc(err)
+            panic(err)
         }
     }

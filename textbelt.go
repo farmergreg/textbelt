@@ -31,16 +31,14 @@ type Client struct {
 
 // New creates a new client that will use http://textbelt.com to send text messages in the USA.
 func New() *Client {
-	c := &Client{}
-	c.apiURL = TextbeltAPIusa
 	return NewClientFromURL(TextbeltAPIusa)
 }
 
 // NewClientFromURL creates a new client using a url of your choosing.
 func NewClientFromURL(apiURL string) *Client {
-	c := &Client{}
-	c.apiURL = apiURL
-	return c
+	return &Client{
+		apiURL: apiURL,
+	}
 }
 
 // Text sends a text message.
@@ -49,7 +47,6 @@ func (c *Client) Text(phoneNumber string, message string) error {
 		"number":  {phoneNumber},
 		"message": {message},
 	}
-
 	response, err := http.PostForm(c.apiURL, data)
 	if err != nil {
 		return err

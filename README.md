@@ -15,8 +15,8 @@ This library sends text messages using http://textbelt.com
     
     func main() {
         texter := textbelt.New()
-        yourPhone := "123-456-7890"
-        if err := texter.Text(yourPhone, "txt msg from go!"); err != nil {
+        phoneToText := "123-456-7890"
+        if err := texter.Text(phoneToText, "txt msg from go!"); err != nil {
             painc(err)
         }
     }

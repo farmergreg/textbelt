@@ -6,13 +6,13 @@ This library sends text messages using http://textbelt.com
 ## Installing
 
 ### go get
-    $ go get github.com/dietsche/textbelt
+    $ go get gopkg.in/dietsche/textbelt.v1
 
 ### Example Code
     package main
     
     import (
-        "github.com/dietsche/textbelt"
+        "gopkg.in/dietsche/textbelt.v1"
     )
     
     func main() {

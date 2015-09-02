@@ -1,4 +1,4 @@
-textbelt.com API in GO  [![GoDoc](https://godoc.org/github.com/dietsche/textbelt?status.png)](https://godoc.org/github.com/dietsche/textbelt)
+textbelt.com API for GO  [![GoDoc](https://godoc.org/github.com/dietsche/textbelt?status.png)](https://godoc.org/github.com/dietsche/textbelt)
 ==================
 
 This library sends text messages using http://textbelt.com

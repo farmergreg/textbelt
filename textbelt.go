@@ -9,13 +9,13 @@ import (
 )
 
 const (
-	// Send text messages to the USA
+	// TextbeltAPIusa is used to send text messages in the USA
 	TextbeltAPIusa = "http://textbelt.com/text"
 
-	// Send text messages to Canada
+	// TextbeltAPIcanada is used to send text messages in Canada
 	TextbeltAPIcanada = "http://textbelt.com/canada"
 
-	// Send text messages internationally
+	// TextbeltAPIinternational is used to send international text messages
 	TextbeltAPIinternational = "http://textbelt.com/intl"
 )
 

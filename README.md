@@ -2,7 +2,7 @@ textbelt.com API for GO
 ==================
 [![GoDoc](https://godoc.org/github.com/dietsche/textbelt?status.png)](https://godoc.org/github.com/dietsche/textbelt) [![Code Coverage](http://gocover.io/_badge/github.com/dietsche/textbelt)](http://gocover.io/github.com/dietsche/textbelt) [![Build Status](https://travis-ci.org/dietsche/textbelt.svg)](https://travis-ci.org/dietsche/textbelt)
 
-This library sends text messages using http://textbelt.com
+This library sends text messages to mobile phones using http://textbelt.com
 
 ## Installing
 
